@@ -1,8 +1,6 @@
-name: interactiveviewer_gallery
-description: Image and video preview component that supports zoom and drag
+name: interactive_viewer_gallery
 version: 0.6.0
-author: qq326646683<326646683@qq.com>
-homepage: https://github.com/qq326646683/interactiveviewer_gallery
+homepage: https://github.com/limebinary/interactive_viewer_gallery.git
 
 environment:
   sdk: '>=2.12.0 <3.0.0'

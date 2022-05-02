@@ -1,6 +1,6 @@
 # example
 
-interactiveviewer_gallery example
+interactive_viewer_gallery example
 
 ## Getting Started
 

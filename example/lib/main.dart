@@ -2,8 +2,8 @@ import 'package:cached_network_image/cached_network_image.dart';
 import 'package:example/display_gesture_widget.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:interactiveviewer_gallery/hero_dialog_route.dart';
-import 'package:interactiveviewer_gallery/interactiveviewer_gallery.dart';
+import 'package:interactive_viewer_gallery/hero_dialog_route.dart';
+import 'package:interactive_viewer_gallery/interactive_viewer_gallery.dart';
 import 'package:video_player/video_player.dart';
 
 void main() {
@@ -104,7 +104,7 @@ class _InteractiveviewDemoPageState extends State<InteractiveviewDemoPage> {
       HeroDialogRoute<void>(
         // DisplayGesture is just debug, please remove it when use
         builder: (BuildContext context) => DisplayGesture(
-          child: InteractiveviewerGallery<DemoSourceEntity>(
+          child: InteractiveViewerGallery<DemoSourceEntity>(
             sources: sourceList,
             initIndex: sourceList.indexOf(source),
             itemBuilder: itemBuilder,

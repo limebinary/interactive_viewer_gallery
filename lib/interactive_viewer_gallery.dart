@@ -1,4 +1,4 @@
-library interactiveviewer_gallery;
+library interactive_viewer_gallery;
 import 'package:flutter/material.dart';
 import './custom_dismissible.dart';
 import './interactive_viewer_boundary.dart';
@@ -17,8 +17,8 @@ typedef IndexedFocusedWidgetBuilder = Widget Function(BuildContext context, int 
 
 typedef IndexedTagStringBuilder = String Function(int index);
 
-class InteractiveviewerGallery<T> extends StatefulWidget {
-  const InteractiveviewerGallery({
+class InteractiveViewerGallery<T> extends StatefulWidget {
+  const InteractiveViewerGallery({
     required this.sources,
     required this.initIndex,
     required this.itemBuilder,
@@ -47,7 +47,7 @@ class InteractiveviewerGallery<T> extends StatefulWidget {
   _TweetSourceGalleryState createState() => _TweetSourceGalleryState();
 }
 
-class _TweetSourceGalleryState extends State<InteractiveviewerGallery> with SingleTickerProviderStateMixin {
+class _TweetSourceGalleryState extends State<InteractiveViewerGallery> with SingleTickerProviderStateMixin {
   PageController? _pageController;
   TransformationController? _transformationController;
 
